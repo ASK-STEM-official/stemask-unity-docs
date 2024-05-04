@@ -3,6 +3,7 @@ sidebar_position: 1
 ---
 
 # はじめに
+
 LEGO Robot班で生きていくために読んでおいた方がいい文章です
 
 ## 対象者
