@@ -114,7 +114,7 @@ const config: Config = {
     [
       '@docusaurus/plugin-content-docs',
       {
-        id: 'rego-docs',
+        id: 'LEGO-docs',
         path: 'rego-docs',
         routeBasePath: 'rego-docs',
         sidebarPath: './sidebars.ts',
@@ -168,7 +168,7 @@ const config: Config = {
           label: 'ETロボ',
         },
         {
-          to: "/rego-docs/intro",
+          to: "/LEGO-docs/intro",
           position: 'left',
           label: 'ロボ',
         },
