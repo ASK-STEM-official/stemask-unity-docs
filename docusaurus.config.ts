@@ -220,6 +220,18 @@ const config: Config = {
               label: '環境構築',
               to: '/IT-docs/category/環境構築',
             },
+            {
+              label: 'なんちゃって虎の巻',
+              to: '/IT-docs/category/なんちゃって虎の巻',
+            },
+            {
+              label: 'SQL関連',
+              to: '/IT-docs/category/SQL関連',
+            },
+            {
+              label: 'Spring関連',
+              to: '/IT-docs/category/Spring関連',
+            },
           ],
         },
         {
