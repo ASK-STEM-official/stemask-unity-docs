@@ -49,7 +49,7 @@ export default function Home(): JSX.Element {
       description: "JavaとDatabaseを使ったアプリ制作"
     },
     {
-      to: "/beginners/intro",
+      to: "/web-docs/intro",
       imgUrl: useBaseUrl("/img/web.png"),
       title: "Web Development",
       description: "WebサイトやWebアプリ制作"
