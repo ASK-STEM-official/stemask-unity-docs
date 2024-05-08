@@ -10,7 +10,7 @@ Docusaurus には **他にもたくさんの機能**があります!
 
 **あと 5 分**ありますか? **[versioning](../tutorial-extras/manage-docs-versions.md)** と **[i18n](../tutorial-extras/translate-your-site.md)** を見てください。
 
-このチュートリアルに**不明瞭**または **バグ** はありますか? [報告してください!](https://github.com/facebook/docusaurus/Discussions/4610)
+このチュートリアルに **不明瞭** または **バグ** はありますか? [報告してください!](https://github.com/facebook/docusaurus/Discussions/4610)
 
 ## 次は何をしよう？
 
