@@ -24,7 +24,7 @@ This is my **first Docusaurus document**!
 
 ## サイドバーを構成する
 
-Docusaurus は`docs`フォルダーから自動的に**サイドバーを作成**します。
+Docusaurusは`docs`フォルダーから自動的に**サイドバーを作成**します。
 
 メタデータを追加してサイドバーのラベルと位置をカスタマイズします。
 
