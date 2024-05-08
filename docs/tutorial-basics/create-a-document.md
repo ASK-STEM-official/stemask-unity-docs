@@ -24,9 +24,9 @@ This is my **first Docusaurus document**!
 
 ## サイドバーを構成する
 
-Docusaurus は、`docs` フォルダーから自動的に **サイドバーを作成**します。
+Docusaurus は`docs`フォルダーから自動的に**サイドバーを作成**します。
 
-メタデータを追加して、サイドバーのラベルと位置をカスタマイズします。
+メタデータを追加してサイドバーのラベルと位置をカスタマイズします。
 
 ```md title="docs/hello.md" {1-4}
 ---
@@ -36,11 +36,11 @@ sidebar_position: 3
 
 # Hello
 
-This is my **first Docusaurus document**!
+This is my**first Docusaurus document**!
 ```
 
 
-`sidebars.js` でサイドバーを明示的に作成することもできます。
+`sidebars.js`でサイドバーを明示的に作成することもできます。
 
 ```js title="sidebars.js"
 export default {
