@@ -190,7 +190,7 @@ const config: Config = {
           items: [
             {
               label: '公式チュートリアル',
-              herf: 'https://ask-stem-official.github.io.stemask-docs/intro',//内部リンクである場合はto:を使う
+              to: '/docs/intro',
             },
           ]
         },
