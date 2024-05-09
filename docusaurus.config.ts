@@ -187,6 +187,12 @@ const config: Config = {
       links: [
         {//この中かっこをコピペでカテゴリトップを作成
           title: 'How to Edit',
+          items: [
+            {
+              label: '公式チュートリアル',
+              to: '/docs/intro',//内部リンクである場合はto:を使う
+            },
+          ]
         },
         {
           title: 'Unity Docs',
