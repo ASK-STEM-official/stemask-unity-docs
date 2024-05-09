@@ -2,13 +2,14 @@
 sidebar_position: 2
 ---
 
-# Translate your site
+# サイトを翻訳する
 
-Let's translate `docs/intro.md` to French.
+`docs/intro.md`をフランス語にしてみましょう
 
-## Configure i18n
+## i18nを構成する
 
-Modify `docusaurus.config.js` to add support for the `fr` locale:
+Modify`docusaurus.config.js` to add support for the `fr` locale:
+`docusaurus.config.js`を編集し to add support for the `fr` locale: <!--翻訳中-->
 
 ```js title="docusaurus.config.js"
 export default {

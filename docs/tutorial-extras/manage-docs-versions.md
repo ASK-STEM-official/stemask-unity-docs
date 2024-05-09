@@ -18,8 +18,7 @@ npm run docusaurus docs:version 1.0
 
 ドキュメントには2つのバージョンがあります。
 
-- `1.0` at  `http://localhost:3000/docs/` for the version 1.0 docs
-- `current` at `http://localhost:3000/docs/next/` for the **upcoming, unreleased docs**
+- 今後のリリース予定のドキュメントは(http://localhost:3000/docs/)のcurrentを参照してください <!-- 翻訳案募集 -->
 
 ## バージョンドロップダウンを追加
 
