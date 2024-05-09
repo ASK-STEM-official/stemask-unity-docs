@@ -190,11 +190,11 @@ const config: Config = {
           items: [
             {
               label: '公式チュートリアル',
-              to: '/docs/tutorial-basics',//内部リンクである場合はto:を使う
+              to: '/docs/tutorial-basics/',//内部リンクである場合はto:を使う
             },
             {
               label: '発展',
-              to: '/docs/tutorial-extras',//内部リンクである場合はto:を使う
+              to: '/docs/tutorial-extras/',//内部リンクである場合はto:を使う
             },
           ]
         },
