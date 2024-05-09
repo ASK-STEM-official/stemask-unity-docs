@@ -2,13 +2,13 @@
 sidebar_position: 4
 ---
 
-# Markdown Features
+# マークダウンの機能
 
-Docusaurus supports **[Markdown](https://daringfireball.net/projects/markdown/syntax)** and a few **additional features**.
+Docusaurusは**[Markdown](https://daringfireball.net/projects/markdown/syntax)**といくつかの**追加機能**をサポートしています。
 
-## Front Matter
+##フロントの問題
 
-Markdown documents have metadata at the top called [Front Matter](https://jekyllrb.com/docs/front-matter/):
+Markdownドキュメントの上部には、[Front Matter](https://jekyllrb.com/docs/front-matter/)と呼ばれるメタデータがあります。
 
 ```text title="my-doc.md"
 // highlight-start
@@ -25,9 +25,9 @@ slug: /my-custom-url
 Markdown text with [links](./hello.md)
 ```
 
-## Links
+## リンクについて
 
-Regular Markdown links are supported, using url paths or relative file paths.
+URL パスまたは相対ファイルパスを使用した通常のMarkdownリンクがサポートされています。
 
 ```md
 Let's see how to [Create a page](/create-a-page).
@@ -37,13 +37,13 @@ Let's see how to [Create a page](/create-a-page).
 Let's see how to [Create a page](./create-a-page.md).
 ```
 
-**Result:** Let's see how to [Create a page](./create-a-page.md).
+**結果:**[ページの作成](./create-a-page.md)の方法を見てみましょう。
 
-## Images
+## 画像について
 
-Regular Markdown images are supported.
+通常のMarkdownイメージがサポートされています。
 
-You can use absolute paths to reference images in the static directory (`static/img/docusaurus.png`):
+絶対パスを使用して、静的ディレクトリ(`static/img/docusaurus.png`)内の画像を参照できます。
 
 ```md
 ![Docusaurus logo](/img/docusaurus.png)
@@ -51,15 +51,15 @@ You can use absolute paths to reference images in the static directory (`static/
 
 ![Docusaurus logo](/img/docusaurus.png)
 
-You can reference images relative to the current file as well. This is particularly useful to colocate images close to the Markdown files using them:
+現在のファイルを基準にして画像を参照することもできます。これはMarkdownファイルを使用して画像をその近くに配置する場合に特に便利です。
 
 ```md
 ![Docusaurus logo](./img/docusaurus.png)
 ```
 
-## Code Blocks
+## コードブロック
 
-Markdown code blocks are supported with Syntax highlighting.
+マークダウンコードブロックは構文の強調表示でサポートされています。
 
 ````md
 ```jsx title="src/components/HelloDocusaurus.js"
@@ -75,9 +75,9 @@ function HelloDocusaurus() {
 }
 ```
 
-## Admonitions
+## 警告について
 
-Docusaurus has a special syntax to create admonitions and callouts:
+Docusaurusには、警告とコールアウトを作成するための特別な構文があります。
 
 ```md
 :::tip My tip
@@ -105,9 +105,9 @@ This action is dangerous
 
 :::
 
-## MDX and React Components
+## MDXおよびReactコンポーネント
 
-[MDX](https://mdxjs.com/) can make your documentation more **interactive** and allows using any **React components inside Markdown**:
+[MDX](https://mdxjs.com/)はドキュメントをより**インタラクティブ**にし、Markdown内で**Reactコンポーネント**を使用できるようにします。
 
 ```jsx
 export const Highlight = ({children, color}) => (
