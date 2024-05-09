@@ -9,7 +9,7 @@ sidebar_position: 2
 ## i18nを構成する
 
 Modify`docusaurus.config.js` to add support for the `fr` locale:
-`docusaurus.config.js`を編集し to add support for the `fr` locale: <!--翻訳中-->
+`docusaurus.config.js`を編集してフランス語に対応させます。
 
 ```js title="docusaurus.config.js"
 export default {
