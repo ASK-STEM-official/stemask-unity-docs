@@ -98,12 +98,16 @@ imgフォルダのhoge.pngという名前の画像を表示したい場合
 `[]の中は代替テキストで画像が表示されない場合表示されます。`
 
 ### リンクを表示
-
 そのままリンクを打つことで触るとリンク先に行くことができますが次のように打つことでURLを直接表示するのではなくテキストを触ることでリンク先に行くことができるようにします。
 ```
 [表示したいテキスト](URL)
-[google](https://google.com)
+[STEMASK Docs](https://ask-stem-official.github.io/stemask-docs/)
 ```
+内部リンク(サイト内の場所)の場合は次のようにファイルパスで指定できます。
+```
+[公式チュートリアル](/docs/tutorial-basics/congratulations.md)
+```
+
 ### ノート
 次のように書くことで目立つよう補足説明ができます。
 ```
@@ -112,7 +116,7 @@ imgフォルダのhoge.pngという名前の画像を表示したい場合
 :::
 ```
 :::tip
-ほかにもwarningやcaution、tipなどがあります。
+ほかにもwarningやcaution、tip、infoなどがあります。
 :::
 
 ### 表の作成方法
