@@ -230,12 +230,30 @@ const config: Config = {
         },
         {
           title: 'Web docs',
+          items: [
+            {
+              label: 'はじめに',
+              to: '/web-docs/intro',
+            },
+        ]
         },
         {
           title: 'ETロボコン docs',
+          items: [
+            {
+              label: 'はじめに',
+              to: '/ET-docs/intro',
+            },
+        ]
         },
         {
           title: 'LEGOロボット docs',
+          items: [
+            {
+              label: 'はじめに',
+              to: '/LEGO-docs/intro',
+            },
+        ]
         },
         {
           title: '関連リンク',
