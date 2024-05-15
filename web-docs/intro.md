@@ -14,4 +14,5 @@ sidebar_position: 1
 
 ## 前提条件
 
+- PCの基礎知識がある人
 
