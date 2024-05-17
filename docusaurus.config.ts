@@ -262,6 +262,10 @@ const config: Config = {
               label: 'GitHub',
               href: 'https://github.com/ASK-STEM-official/stemask-docs',//外部リンクはhref要素で宣言
             },
+            {
+              label: 'ブログ',
+              to: '/blog',
+            },
           ],
         },
       ],
