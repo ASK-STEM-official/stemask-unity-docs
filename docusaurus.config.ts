@@ -121,7 +121,7 @@ const config: Config = {
         editUrl: 'https://github.com/ASK-STEM-official/stemask-docs/tree/main/',//編集用メニューの遷移先URL
         // ... other options
       },
-    ],   
+    ],  
   ],
 
   themeConfig: {
@@ -172,7 +172,11 @@ const config: Config = {
           position: 'left',
           label: 'LEGOロボット',
         },
-        
+        {
+          to: "/blog",
+          position: 'left',
+          label: 'blog',
+        },
 
         // {to: '/blog', label: '作品集', position: 'left'},
         {
@@ -263,8 +267,8 @@ const config: Config = {
               href: 'https://github.com/ASK-STEM-official/stemask-docs',//外部リンクはhref要素で宣言
             },
             {
-              label: `blog`,
-              to: `/blog`,
+              label: 'ブログ',
+              to: '/blog',
             },
           ],
         },
