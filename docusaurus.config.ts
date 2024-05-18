@@ -121,7 +121,18 @@ const config: Config = {
         editUrl: 'https://github.com/ASK-STEM-official/stemask-docs/tree/main/',//編集用メニューの遷移先URL
         // ... other options
       },
-    ],   
+    ],
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'blog',
+        path: 'blog',
+        routeBasePath: 'blog',
+        sidebarPath: './sidebars.ts',
+        editUrl: 'https://github.com/ASK-STEM-official/stemask-docs/tree/main/',//編集用メニューの遷移先URL
+        // ... other options
+      },
+    ],     
   ],
 
   themeConfig: {
