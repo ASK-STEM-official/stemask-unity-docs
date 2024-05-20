@@ -257,6 +257,10 @@ C#スクリプトを作成します。名前はBlockControllerとかでいいと
 
 ### 6-1ゲームオーバーの処理
 
+:::note
+ここは元の記事とは別の人が作成しているのですがcontrolのスペルを見事にcontrollと勘違いしてるので実際に書く時にはcontrolで書いてください。
+:::
+
 ここの処理の説明がちょっとめんどくさいので、とりあえずコード見せます。
 
 ![Ball_gameover](./images/ballgameover.png)

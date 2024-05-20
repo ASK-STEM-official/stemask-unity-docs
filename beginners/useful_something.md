@@ -33,3 +33,14 @@ description: 便利系
 | markdownlint | VSCode | マークダウンを書くときにルールに沿ってるか見てくれます。簡単なものなら勝手に直してくれます。 |
 | indent-rainbow | VSCode | インデントを可視化してくれます。 |
 | zenkaku | VSCode | スペースが全角になっていると教えてくれます。 |
+| Github Pull Reqest | VSCode | VSCode上でPull Requestの操作ができます。 |
+
+
+# 便利アプリ
+※筆者の独断です
+
+| アプリ名 | 機能 |
+| - | - |
+| Braveブラウザ | 標準でアドブロック機能がついてるのでYoutubeなどで広告が表示されません。たぶんChromeの上位互換 |
+| 7ip・win rar | zip解凍ソフト。winだけではzipしか解凍できないので.7zやrar、tar.gzなどを解凍する際に必要。lhaplusはサポート終了したので非推奨。 |
+|  |  |
