@@ -2,13 +2,13 @@
 sidebar_position: 2
 ---
 
-# Translate your site
+# サイトを翻訳する
 
-Let's translate `docs/intro.md` to French.
+`docs/intro.md`をフランス語にしてみましょう
 
-## Configure i18n
+## i18nを構成する
 
-Modify `docusaurus.config.js` to add support for the `fr` locale:
+`docusaurus.config.js`を編集して`fr`ロケールをサポートするようにします:
 
 ```js title="docusaurus.config.js"
 export default {
@@ -19,9 +19,9 @@ export default {
 };
 ```
 
-## Translate a doc
+## ドキュメントの翻訳
 
-Copy the `docs/intro.md` file to the `i18n/fr` folder:
+`docs/intro.md`ファイルを`i18n/fr`フォルダにコピーします:
 
 ```bash
 mkdir -p i18n/fr/docusaurus-plugin-content-docs/current/
@@ -29,29 +29,29 @@ mkdir -p i18n/fr/docusaurus-plugin-content-docs/current/
 cp docs/intro.md i18n/fr/docusaurus-plugin-content-docs/current/intro.md
 ```
 
-Translate `i18n/fr/docusaurus-plugin-content-docs/current/intro.md` in French.
+`i18n/fr/docusaurus-plugin-content-docs/current/intro.md`をフランス語に翻訳します。
 
-## Start your localized site
+## ローカライズされたサイトを開始する
 
-Start your site on the French locale:
+フランス語のロケールでサイトを開始します:
 
 ```bash
 npm run start -- --locale fr
 ```
 
-Your localized site is accessible at [http://localhost:3000/fr/](http://localhost:3000/fr/) and the `Getting Started` page is translated.
+ローカライズされたサイトは [http://localhost:3000/fr/](http://localhost:3000/fr/) でアクセスでき、`Getting Started`ページが翻訳されています。
 
 :::caution
 
-In development, you can only use one locale at a time.
+開発中は、一度に1つのロケールしか使用できません。
 
 :::
 
-## Add a Locale Dropdown
+## ロケールのドロップダウンを追加する
 
-To navigate seamlessly across languages, add a locale dropdown.
+言語をシームレスに切り替えるために、ロケールのドロップダウンを追加します。
 
-Modify the `docusaurus.config.js` file:
+`docusaurus.config.js`ファイルを修正します:
 
 ```js title="docusaurus.config.js"
 export default {
@@ -69,19 +69,19 @@ export default {
 };
 ```
 
-The locale dropdown now appears in your navbar:
+ロケールのドロップダウンがナビゲーションバーに表示されます:
 
-![Locale Dropdown](./img/localeDropdown.png)
+![ロケールのドロップダウン](./img/localeDropdown.png)
 
-## Build your localized site
+## ローカライズされたサイトをビルドする
 
-Build your site for a specific locale:
+特定のロケール向けにサイトをビルドします:
 
 ```bash
 npm run build -- --locale fr
 ```
 
-Or build your site to include all the locales at once:
+または、すべてのロケールを含むサイトを一度にビルドします:
 
 ```bash
 npm run build

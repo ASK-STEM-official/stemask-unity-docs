@@ -2,17 +2,17 @@
 sidebar_position: 1
 ---
 
-# Create a Page
+# ページの作成
 
-Add **Markdown or React** files to `src/pages` to create a **standalone page**:
+**MarkdownまたはReact**ファイルを`src/pages`に追加して、**スタンドアロンページ**を作成します。
 
 - `src/pages/index.js` → `localhost:3000/`
 - `src/pages/foo.md` → `localhost:3000/foo`
 - `src/pages/foo/bar.js` → `localhost:3000/foo/bar`
 
-## Create your first React Page
+## 最初のReactページを作成する
 
-Create a file at `src/pages/my-react-page.js`:
+次のパスにファイルを作成します`src/pages/my-react-page.js`:
 
 ```jsx title="src/pages/my-react-page.js"
 import React from 'react';
@@ -28,11 +28,12 @@ export default function MyReactPage() {
 }
 ```
 
-A new page is now available at [http://localhost:3000/my-react-page](http://localhost:3000/my-react-page).
 
-## Create your first Markdown Page
+新しいページが次の場所で利用できるようになりました。[http://localhost:3000/my-react-page](http://localhost:3000/my-react-page).
 
-Create a file at `src/pages/my-markdown-page.md`:
+## 最初のMarkdownページを作成する
+
+次のパスにファイルを作成します`src/pages/my-markdown-page.md`:
 
 ```mdx title="src/pages/my-markdown-page.md"
 # My Markdown page
@@ -40,4 +41,5 @@ Create a file at `src/pages/my-markdown-page.md`:
 This is a Markdown page
 ```
 
-A new page is now available at [http://localhost:3000/my-markdown-page](http://localhost:3000/my-markdown-page).
+
+新しいページが次の場所で利用できるようになりました。[http://localhost:3000/my-markdown-page](http://localhost:3000/my-markdown-page).

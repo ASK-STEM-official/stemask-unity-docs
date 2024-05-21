@@ -121,7 +121,7 @@ const config: Config = {
         editUrl: 'https://github.com/ASK-STEM-official/stemask-docs/tree/main/',//編集用メニューの遷移先URL
         // ... other options
       },
-    ],   
+    ],  
   ],
 
   themeConfig: {
@@ -172,7 +172,11 @@ const config: Config = {
           position: 'left',
           label: 'LEGOロボット',
         },
-        
+        {
+          to: "/blog",
+          position: 'left',
+          label: 'blog',
+        },
 
         // {to: '/blog', label: '作品集', position: 'left'},
         {
@@ -187,6 +191,12 @@ const config: Config = {
       links: [
         {//この中かっこをコピペでカテゴリトップを作成
           title: 'How to Edit',
+          items: [
+            {
+              label: '公式チュートリアル',
+              to: '/docs/intro',//内部リンクである場合はto:を使う
+            },
+          ]
         },
         {
           title: 'Unity Docs',
@@ -236,12 +246,30 @@ const config: Config = {
         },
         {
           title: 'Web docs',
+          items: [
+            {
+              label: 'はじめに',
+              to: '/web-docs/intro',
+            },
+        ]
         },
         {
           title: 'ETロボコン docs',
+          items: [
+            {
+              label: 'はじめに',
+              to: '/ET-docs/intro',
+            },
+        ]
         },
         {
           title: 'LEGOロボット docs',
+          items: [
+            {
+              label: 'はじめに',
+              to: '/LEGO-docs/intro',
+            },
+        ]
         },
         {
           title: '関連リンク',
@@ -249,6 +277,10 @@ const config: Config = {
             {
               label: 'GitHub',
               href: 'https://github.com/ASK-STEM-official/stemask-docs',//外部リンクはhref要素で宣言
+            },
+            {
+              label: 'ブログ',
+              to: '/blog',
             },
           ],
         },
