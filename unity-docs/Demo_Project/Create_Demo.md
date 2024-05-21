@@ -206,11 +206,15 @@ RigidBody2Dというやつです。こいつは物理を物に適用させるこ
 
 プログラムが完成したら、さっきPlayerにやったのと同じように、ballにスクリプトをアタッチしましょう。
 
-![pysics_material](./images/p_material.png)
+![physics_material](./images/p_material.png)
 
 ここから物理マテリアルを作成します。
 
-![rigitbody_pysic_material](./images/image-1.png)
+![alt text](image.png)
+
+作成出来たらこのような値にしてください。
+
+![rigitbody_physics_material](./images/image-1.png)
 
 作成したらballのRigitbody2Dのマテリアルという部分にドラッグ&ドロップします。
 
