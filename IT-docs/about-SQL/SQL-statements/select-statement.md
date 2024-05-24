@@ -1,6 +1,6 @@
 ---
 sidebar_position: 3
-description: ありとあらゆるものを検索せよ
+description: ありとあらゆるものを取得せよ
 ---
 
 # SELECT文

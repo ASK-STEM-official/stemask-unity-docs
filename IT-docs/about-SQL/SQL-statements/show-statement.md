@@ -1,5 +1,5 @@
 ---
-sidebar_position: 3
+sidebar_position: 4
 description: ありとあらゆるものを表示しろ
 ---
 
@@ -26,3 +26,13 @@ SHOW TABLES FROM [スキーマ名] [LIKE 'パターン'];
 ```sql
 SHOW FIELDS/COLUMNS FROM [(スキーマ名.)テーブル名] [LIKE 'パターン' WHERE '条件'];
 ```
+
+:::info
+ところで君、こう思った事はないかね？
+
+**あれ？selectとshowって何が違うの？**
+
+いい質問だ。私も分からない。
+
+
+:::

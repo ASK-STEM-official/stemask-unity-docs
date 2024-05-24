@@ -239,6 +239,10 @@ const config: Config = {
               to: '/IT-docs/category/SQL関連',
             },
             {
+              label: '基本的なSQL文',
+              to: '基本的なSQL句',
+            },
+            {
               label: 'Spring関連',
               to: '/IT-docs/category/Spring関連',
             },
