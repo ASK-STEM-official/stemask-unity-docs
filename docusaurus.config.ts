@@ -103,6 +103,17 @@ const config: Config = {
     [
       '@docusaurus/plugin-content-docs',
       {
+        id: 'Git-how-to',
+        path: 'Git-how-to',
+        routeBasePath: 'Git-how-to',
+        sidebarPath: './sidebars.ts',
+        editUrl: 'https://github.com/ASK-STEM-official/stemask-docs/tree/main/',//編集用メニューの遷移先URL
+        // ... other options
+      },
+    ],
+    [
+      '@docusaurus/plugin-content-docs',
+      {
         id: 'ET-docs',
         path: 'ET-docs',
         routeBasePath: 'ET-docs',
@@ -256,6 +267,15 @@ const config: Config = {
             {
               label: 'はじめに',
               to: '/LEGO-docs/intro',
+            },
+        ]
+        },
+        {
+          title: 'Gitの使い方',
+          items: [
+            {
+              label: 'はじめに',
+              to: '/Git-how-to/intro',
             },
         ]
         },
