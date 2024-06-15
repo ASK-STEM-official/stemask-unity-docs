@@ -1,9 +1,9 @@
 ---
-sidebar_position: 1
-description: Git、GitHubを使えるようになる
+sidebar_position: 2
+description: Git、GitHubをセットアップする
 ---
 
-# Git・GitHubを使えるようになる
+# Git・GitHubについて
 
 GitとGithubはGoogleドライブのプログラム開発版みたいなものです。
 

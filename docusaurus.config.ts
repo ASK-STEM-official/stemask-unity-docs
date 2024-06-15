@@ -1,5 +1,5 @@
-import {themes as prismThemes} from 'prism-react-renderer';
-import type {Config} from '@docusaurus/types';
+import { themes as prismThemes } from 'prism-react-renderer';
+import type { Config } from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
@@ -75,12 +75,12 @@ const config: Config = {
         routeBasePath: 'IT-docs',
         sidebarPath: './sidebars.ts',
         editUrl: 'https://github.com/ASK-STEM-official/stemask-docs/tree/main/',//編集用メニューの遷移先URL
-      // ... other options
+        // ... other options
       },
     ],
     [
       '@docusaurus/plugin-content-docs',
-    {
+      {
         id: 'web-docs',
         path: 'web-docs',
         routeBasePath: 'web-docs',
@@ -88,7 +88,7 @@ const config: Config = {
         editUrl: 'https://github.com/ASK-STEM-official/stemask-docs/tree/main/',//編集用メニューの遷移先URL
         // ... other options
       },
-    ], 
+    ],
     [
       '@docusaurus/plugin-content-docs',
       {
@@ -103,9 +103,9 @@ const config: Config = {
     [
       '@docusaurus/plugin-content-docs',
       {
-        id: 'Git-how-to',
-        path: 'Git-how-to',
-        routeBasePath: 'Git-how-to',
+        id: 'git',
+        path: 'git',
+        routeBasePath: 'git',
         sidebarPath: './sidebars.ts',
         editUrl: 'https://github.com/ASK-STEM-official/stemask-docs/tree/main/',//編集用メニューの遷移先URL
         // ... other options
@@ -132,7 +132,7 @@ const config: Config = {
         editUrl: 'https://github.com/ASK-STEM-official/stemask-docs/tree/main/',//編集用メニューの遷移先URL
         // ... other options
       },
-    ],  
+    ],
   ],
 
   themeConfig: {
@@ -182,6 +182,11 @@ const config: Config = {
           to: "/LEGO-docs/intro",
           position: 'left',
           label: 'LEGOロボット',
+        },
+        {
+          to: "/git/intro",
+          position: 'left',
+          label: 'Git使い方',
         },
         {
           to: "/blog",
@@ -250,7 +255,7 @@ const config: Config = {
               label: 'はじめに',
               to: '/web-docs/intro',
             },
-        ]
+          ]
         },
         {
           title: 'ETロボコン docs',
@@ -259,7 +264,7 @@ const config: Config = {
               label: 'はじめに',
               to: '/ET-docs/intro',
             },
-        ]
+          ]
         },
         {
           title: 'LEGOロボット docs',
@@ -268,16 +273,16 @@ const config: Config = {
               label: 'はじめに',
               to: '/LEGO-docs/intro',
             },
-        ]
+          ]
         },
         {
           title: 'Gitの使い方',
           items: [
             {
               label: 'はじめに',
-              to: '/Git-how-to/intro',
+              to: '/git/intro',
             },
-        ]
+          ]
         },
         {
           title: '関連リンク',
