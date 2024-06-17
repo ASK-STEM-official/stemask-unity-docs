@@ -75,7 +75,6 @@ const config: Config = {
         routeBasePath: 'IT-docs',
         sidebarPath: './sidebars.ts',
         editUrl: 'https://github.com/ASK-STEM-official/stemask-docs/tree/main/',//編集用メニューの遷移先URL
-      // ... other options
       },
     ],
     [
